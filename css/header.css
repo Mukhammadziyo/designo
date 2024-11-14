@@ -1,0 +1,41 @@
+.header {
+  padding-top: 64px;
+  padding-bottom: 67px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 196px;
+  height: 24px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  column-gap: 42px;
+}
+
+.header-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+
+  &:hover {
+    text-decoration-color: #333136;
+    color: black;
+  }
+}
