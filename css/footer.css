@@ -159,3 +159,25 @@
   column-gap: 16px;
   margin-left: 298px;
 }
+
+@media (max-width: 1150px) {
+  .footer-top {
+    width: 900px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    padding: 30px 95px;
+  }
+
+  .footer-top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p,
+    h3 {
+      text-align: center;
+    }
+  }
+}

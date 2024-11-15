@@ -61,3 +61,27 @@ a {
     letter-spacing: 5px;
   }
 }
+
+@media (max-width: 1360px) {
+  .container {
+    max-width: 1300px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 1228px) {
+  .container {
+    max-width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
