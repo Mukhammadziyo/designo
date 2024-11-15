@@ -1,0 +1,67 @@
+@import "../../css/global.css";
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.location-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  width: 730px;
+  height: 326px;
+  border-radius: 15px;
+  padding: 88px 95px;
+  background-color: #fdf3f0;
+  background-image: url(../../images/place-card-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+  h4 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #e7816b;
+  }
+}
+
+.card-place {
+  display: flex;
+  align-items: center;
+  column-gap: 100px;
+}
+
+.card-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-area > li {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333136;
+}
+
+.card-area > li:first-child {
+  font-weight: 700;
+}
+
+.card-contact > li {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333136;
+}
+
+.card-contact > li:first-child {
+  font-weight: 700;
+}

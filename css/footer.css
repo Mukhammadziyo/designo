@@ -1,16 +1,23 @@
 .footer {
-  margin-top: 160px;
   background-color: #1d1c1e;
+  padding-top: 144px;
+  padding-bottom: 72px;
 }
 
 .footer-top {
   background-color: #e7816b;
   width: 1111px;
+  max-height: 292px;
   padding: 72px 95px;
   border-radius: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  top: 75px;
+  background-image: url(../images/footer-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 
 .footer-top-text {
@@ -46,7 +53,7 @@
   border-radius: 8px;
   text-transform: uppercase;
 
-  &:active {
+  &:hover {
     background-color: #ffad9b;
     color: #ffffff;
   }
@@ -55,4 +62,100 @@
 .footer-container {
   display: flex;
   flex-direction: column;
+  row-gap: 35px;
+}
+
+.footer-container-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  padding-bottom: 40px;
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo {
+  width: 196px;
+  height: 24px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  column-gap: 42px;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+
+  &:hover {
+    text-decoration-color: #ffffff;
+    color: white;
+  }
+}
+
+.footer-line {
+  width: 100%;
+}
+
+.footer-end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  opacity: 0.5;
+  width: 300px;
+  max-height: 80px;
+}
+
+.location > li:nth-child(1) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.location > li:nth-child(2) {
+  font-weight: 400;
+}
+
+.location > li:nth-child(3) {
+  font-weight: 400;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  padding-right: 150px;
+  color: #ffffff;
+  opacity: 0.5;
+  width: 400px;
+
+  li {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.social-medias {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-left: 298px;
 }

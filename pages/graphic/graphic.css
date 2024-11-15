@@ -1,0 +1,48 @@
+@import "../../css/projects.css";
+.app {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../images/image-app-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 107px 147px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 24px;
+  width: 550px;
+  height: 308px;
+}
+
+.graphic {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../images/image-web-design-large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  padding: 107px 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 24px;
+  width: 550px;
+  height: 308px;
+}
+
+.app:hover {
+  background-image: linear-gradient(
+      rgba(255, 173, 155, 0.6),
+      rgba(255, 173, 155, 0.6)
+    ),
+    url(../../images/image-app-design.jpg);
+}
+
+.graphic:hover {
+  background-image: linear-gradient(
+      rgba(255, 173, 155, 0.6),
+      rgba(255, 173, 155, 0.6)
+    ),
+    url(../../images/image-web-design-large.jpg);
+}

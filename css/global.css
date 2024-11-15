@@ -48,30 +48,16 @@ a {
   padding-right: 120px;
 }
 
-.app {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/image-app-design.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 15px;
-  padding: 107px 147px;
+.view-projects-link {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  row-gap: 24px;
-}
+  column-gap: 21px;
 
-.graphic {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/image-graphic-design.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 15px;
-  padding: 107px 88px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  row-gap: 24px;
+  span {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 5px;
+  }
 }

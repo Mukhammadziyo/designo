@@ -1,0 +1,124 @@
+@import "../../css/global.css";
+
+body {
+  background-image: url(../../../images/home-bc.svg);
+  background-repeat: no-repeat;
+  background-position-y: 281px;
+  background-position-x: left;
+}
+/* , url(../../../images/home-bc-2.svg) */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 160px;
+}
+
+.hero-container {
+  max-width: 1111px;
+  border-radius: 15px;
+  padding: 64px 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+  background-color: #e7816b;
+  background-image: url(../../images/web-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+
+  h2 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    width: 55%;
+  }
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  column-gap: 29px;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border-radius: 15px;
+  background-color: #fdf3f0;
+
+  &:hover {
+    background-color: #e7816b;
+
+    .card-text > h5,
+    p {
+      color: #ffffff;
+    }
+  }
+
+  &:active {
+    opacity: 80%;
+  }
+
+  img {
+    width: 350px;
+    height: 320px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding: 32px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #e7816b;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333136;
+  }
+}
+
+.view-projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+}
